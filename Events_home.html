@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventsManager
+    </title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header">EVENTS</header>
+    <section class="box" id="container">
+        <ul>
+
+            <li><a href="Events/Car_meet.html"><img src="pictures/car.png" alt="Car"></a>    <p class="p">Car Meet, Saturday 9PM</p></li>
+            <li><a href="Events/bbq.html"><img src="pictures/bbq.png" alt="BBQ"></a>    <p class="p">BBQ, Sunday 2PM</p></li>
+            <li><a href="Events/cinema.html"><img src="pictures/cinema.jpg" alt="Cinema"></a>    <p class="p">Cinema, Thursday 9PM</p></li>
+            <li><a href="Events/football.html"><img src="pictures/soccer.webp" alt="Football"></a>    <p class="p">Football, Saturday 4PM</p></li>
+            <li><a href="Events/wedding.html"><img src="pictures/wedding.jpg" alt="wedding"></a>    <p class="p">Wedding, Saturday</p></li>
+        </ul>
+    </section>
+    <button id="slideLeft" type="button"><img src="pictures/less-than.png" alt="left"></button>
+    <button id="slideRight" type="button"><img src="pictures/more-than.png" alt="right"></button>
+
+    
+</body>
+
+<script>
+    const buttonRight = document.getElementById('slideRight');
+    const buttonLeft = document.getElementById('slideLeft');
+
+    buttonRight.onclick = function () {
+      document.getElementById('container').scrollLeft += 600;
+    };
+    buttonLeft.onclick = function () {
+      document.getElementById('container').scrollLeft -= 600;
+    };
+
+
+</script>
+</html>
+

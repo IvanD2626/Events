@@ -1,0 +1,115 @@
+.car{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    background: url(../pictures/car.png);
+    background-size: cover;
+}
+
+.box {
+    height: 450px;
+    width: 60%;
+    border-radius: 2em;
+    background-color: lightblue;
+    margin-top: 20px;
+    border: 2px solid #D7F205;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    padding-left: 12px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+li{
+    padding-left: 12px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a{
+    padding-left: 12px;
+    color: black;
+    font-size: 20px;
+    float: left;
+    
+
+}
+
+a:hover{
+    color: yellow;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+button img{
+    transition: transform .2s;
+}
+
+button img:hover{
+    transform: scale(1.1);
+}
+
+
+button {
+    background-color: transparent;
+    margin-right: 25px; 
+    border: transparent;
+}
+
+.float_right{
+    float: right;
+}
+
+
+.bbq{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    background: url(../pictures/bbq.png);
+    background-size: cover;
+}
+
+.cinema{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    background: url(../pictures/cinema.jpg);
+    background-size: cover;
+}
+
+.wedding{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    background: url(../pictures/wedding.jpg);
+    background-size: cover;
+}
+
+.football{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 13px;
+    background: url(../pictures/soccer.webp);
+    background-size: cover;
+}
